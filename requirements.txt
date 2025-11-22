@@ -1,7 +1,9 @@
 numpy==2.2.2
 pandas==2.2.3
-streamlit==
-scikit-learn
+streamlit==1.51.0
+scikit-learn==1.7.2
+pip==25.3
+
 
 
 
