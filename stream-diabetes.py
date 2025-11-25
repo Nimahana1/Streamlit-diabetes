@@ -5,7 +5,7 @@ import streamlit as st
 diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
 # Judul website
-st.title('Data Mining Prediksi Deabetes')
+st.title('Data Mining Prediksi Diabetes')
 
 #membagi kolom
 col1, col2 = st.columns(2)
@@ -38,5 +38,6 @@ if st.button('Test Prediksi Diabetes'):
         diab_diagnosis = 'Pasien Terkena Diabetes'
     else :
         diab_diagnosis = 'Pasien Tidak Terkena Diabetes'
+
 
     st.success(diab_diagnosis) 
